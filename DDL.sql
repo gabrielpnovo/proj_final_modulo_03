@@ -1,5 +1,7 @@
 CREATE DATABASE proj_final_mod;
 
+USE proj_final_mod;
+ 
 CREATE TABLE IF NOT EXISTS alunos (
 CPF VARCHAR(11) NOT NULL,
 NOME VARCHAR(100),
