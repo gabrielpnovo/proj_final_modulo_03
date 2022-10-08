@@ -43,3 +43,14 @@ INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('docencia', 'docencia');
 INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('rh', 'administrativo');
 INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('ti', 'administrativo');
 INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('financeiro', 'administrativo');
+
+#CARGOS
+select * from cargos;
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo1', 1, 'junior');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo2', 1, 'pleno');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo3', 1, 'senior');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo4', 2, 'assistente');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo5', 2, 'analista');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo6', 3, 'tecnico');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo7', 4, 'assistente');
+INSERT INTO cargos (NOME, ID_DEPARTAMENTO, DESCRICAO) VALUES ('cargo8', 4, 'analista');
