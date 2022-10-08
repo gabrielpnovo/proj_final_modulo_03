@@ -36,3 +36,10 @@ select * from cursos;
 INSERT INTO cursos (NOME, DESCRICAO, VALOR, DURACAO_MESES) VALUES ('curso1', 'descricaoCurso1', 16000, 5);
 INSERT INTO cursos (NOME, DESCRICAO, VALOR, DURACAO_MESES) VALUES ('curso2', 'descricaoCurso2', 17000, 5);
 INSERT INTO cursos (NOME, DESCRICAO, VALOR, DURACAO_MESES) VALUES ('curso3', 'descricaoCurso3', 18000, 6);
+
+#DEPARTAMENTOS
+select * from departamentos;
+INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('docencia', 'docencia');
+INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('rh', 'administrativo');
+INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('ti', 'administrativo');
+INSERT INTO departamentos (NOME, CATEGORIA) VALUES ('financeiro', 'administrativo');
