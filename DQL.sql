@@ -13,3 +13,11 @@ INNER JOIN cursos
 on turmas.ID_CURSO = cursos.ID_CURSO
 GROUP BY alunos.CPF, cursos.ID_CURSO
 ORDER BY alunos.NOME;
+
+# QUAL A QUANTIDADE DE TURMAS QUE CADA FACILITADOR ESTÁ ALOCADO?
+SELECT equipe.MATRICULA, equipe.NOME, COUNT(*) AS QTD_TURMAS from
+turmas inner join equipe
+on turmas.MATRICULA = equipe.MATRICULA
+where turmas.DATA_FIM > CURDATE() and equipe.DATA_SAIDA is NULL
+GROUP BY equipe.MATRICULA
+ORDER BY QTD_TURMAS DESC;
