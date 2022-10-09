@@ -177,3 +177,14 @@ INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo4', 'descrica
 INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo5', 'descricaoModulo5', 22);
 INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo6', 'descricaoModulo6', 21);
 
+#REL_MOD_CURSO
+select * from rel_mod_curso;
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (1, 1);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (1, 2);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (1, 3);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (2, 4);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (2, 5);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (2, 6);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (3, 1);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (3, 3);
+INSERT INTO rel_mod_curso (ID_CURSO, ID_MODULO) VALUES (3, 5);
