@@ -2,3 +2,14 @@ use proj_final_mod;
 
 # QUAL A QTD TOTAL DE ESTUDANTES CADASTRADA NO BANCO?
 SELECT COUNT(alunos.CPF) AS QTD_ALUNOS FROM alunos;
+
+# QUAIS CURSOS OS ESTUDANTES ESTÃO CADASTRADOS?
+SELECT cursos.NOME, alunos.CPF, alunos.NOME FROM
+ALUNOS INNER JOIN INSCRICOES
+ON alunos.CPF = inscricoes.CPF
+INNER JOIN turmas
+ON inscricoes.ID_TURMA = turmas.ID_TURMA
+INNER JOIN cursos
+on turmas.ID_CURSO = cursos.ID_CURSO
+GROUP BY alunos.CPF, cursos.ID_CURSO
+ORDER BY alunos.NOME;
