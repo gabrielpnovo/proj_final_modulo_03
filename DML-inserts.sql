@@ -168,3 +168,12 @@ INSERT INTO avaliacoes (ID_TURMA, NOTA_CURSO, OPCAO_CURSO, COMENTARIO_CURSO, NOT
 INSERT INTO avaliacoes (ID_TURMA, NOTA_CURSO, OPCAO_CURSO, COMENTARIO_CURSO, NOTA_FACILITADOR, COMENTARIO_FACILITADOR) VALUES (10, 9, 'Conteudo', 'comentarioCurso29', 10, 'comentarioFacilitador29');
 INSERT INTO avaliacoes (ID_TURMA, NOTA_CURSO, OPCAO_CURSO, COMENTARIO_CURSO, NOTA_FACILITADOR, COMENTARIO_FACILITADOR) VALUES (10, 7, 'Conteudo', 'comentarioCurso30', 7, 'comentarioFacilitador30');
 
+#MODULOS
+select * from modulos;
+INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo1', 'descricaoModulo1', 21);
+INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo2', 'descricaoModulo2', 21);
+INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo3', 'descricaoModulo3', 21);
+INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo4', 'descricaoModulo4', 21);
+INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo5', 'descricaoModulo5', 22);
+INSERT INTO modulos (NOME, DESCRICAO, DURACAO_DIAS) VALUES ('modulo6', 'descricaoModulo6', 21);
+
