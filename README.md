@@ -13,4 +13,11 @@ Projeto: "Hoje dentro da Resilia, são armazenadas diversas informações do bra
 Com este problema, pautado pela Resilia, realizamos a criação de uma banco de dados, atrávés de MySQL, a fim de realizar a melhor gestão destes dados, que hoje são salvos em planilhas.
 Isso faz com que a análise e a criação de relatórios seja rápida e objetiva, já que os dados estão sintetizados e organizados de forma a mostrar as turmas, os facilitadores, os alunos, os cursos, monitores, dentre outros e como eles estão relacionados.
 
+
+Integrantes
+
+Gabriel Novo
+Jeison Ortega
+Larissa Silva
+Lucas Albino
 -->
